@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="Classi" projectFiles="true">
+        <logicalFolder name="f1" displayName="DB" projectFiles="true">
+          <itemPath>Classi/DB/CommentiValutazione.h</itemPath>
+          <itemPath>Classi/DB/Commento.h</itemPath>
+          <itemPath>Classi/DB/Film.h</itemPath>
+          <itemPath>Classi/DB/FilmValutazione.h</itemPath>
+          <itemPath>Classi/DB/LaConnessione.h</itemPath>
+          <itemPath>Classi/DB/Utente.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="FN" projectFiles="true">
+          <itemPath>Classi/FN/GB.h</itemPath>
+          <itemPath>Classi/FN/Util.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f4" displayName="IO" projectFiles="true">
+          <itemPath>Classi/IO/IOCommento.h</itemPath>
+          <itemPath>Classi/IO/IOFilm.h</itemPath>
+          <itemPath>Classi/IO/IOLaConnessione.h</itemPath>
+          <itemPath>Classi/IO/IOUtente.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f3" displayName="NET" projectFiles="true">
+          <logicalFolder name="f2" displayName="CLI" projectFiles="true">
+            <itemPath>Classi/NET/CLI/TCPCommento.h</itemPath>
+            <itemPath>Classi/NET/CLI/TCPFilm.h</itemPath>
+            <itemPath>Classi/NET/CLI/TCPUtente.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f1" displayName="SER" projectFiles="true">
+            <itemPath>Classi/NET/SER/SERCommento.h</itemPath>
+            <itemPath>Classi/NET/SER/SERFilm.h</itemPath>
+            <itemPath>Classi/NET/SER/SERUtente.h</itemPath>
+          </logicalFolder>
+          <itemPath>Classi/NET/TCPClient.h</itemPath>
+          <itemPath>Classi/NET/TCPServer.h</itemPath>
+          <itemPath>Classi/NET/TCPStrutture.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>Classi/Constanti.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="Classi" projectFiles="true">
+        <logicalFolder name="f1" displayName="DB" projectFiles="true">
+          <itemPath>Classi/DB/CommentiValutazione.c</itemPath>
+          <itemPath>Classi/DB/Commento.c</itemPath>
+          <itemPath>Classi/DB/DBf.c</itemPath>
+          <itemPath>Classi/DB/Film.c</itemPath>
+          <itemPath>Classi/DB/FilmValutazione.c</itemPath>
+          <itemPath>Classi/DB/LaConnessione.c</itemPath>
+          <itemPath>Classi/DB/Utente.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="FN" projectFiles="true">
+          <itemPath>Classi/FN/GB.c</itemPath>
+          <itemPath>Classi/FN/Util.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f4" displayName="IO" projectFiles="true">
+          <itemPath>Classi/IO/IOCommento.c</itemPath>
+          <itemPath>Classi/IO/IOFilm.c</itemPath>
+          <itemPath>Classi/IO/IOLaConnessione.c</itemPath>
+          <itemPath>Classi/IO/IOUtente.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f3" displayName="NET" projectFiles="true">
+          <logicalFolder name="f2" displayName="CLI" projectFiles="true">
+            <itemPath>Classi/NET/CLI/TCPCommento.c</itemPath>
+            <itemPath>Classi/NET/CLI/TCPFilm.c</itemPath>
+            <itemPath>Classi/NET/CLI/TCPUtente.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f1" displayName="SER" projectFiles="true">
+            <itemPath>Classi/NET/SER/SERCommento.c</itemPath>
+            <itemPath>Classi/NET/SER/SERFilm.c</itemPath>
+            <itemPath>Classi/NET/SER/SERUtente.c</itemPath>
+          </logicalFolder>
+          <itemPath>Classi/NET/TCPClient.c</itemPath>
+          <itemPath>Classi/NET/TCPServer.c</itemPath>
+          <itemPath>Classi/NET/TCPStrutture.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>Classi</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <warningLevel>0</warningLevel>
+        </cTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="Classi/Constanti.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/DB/CommentiValutazione.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/DB/CommentiValutazione.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/DB/Commento.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/DB/Commento.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/DB/DBf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/DB/Film.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/DB/Film.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/DB/FilmValutazione.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/DB/FilmValutazione.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/DB/LaConnessione.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/DB/LaConnessione.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/DB/Utente.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/DB/Utente.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/FN/GB.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/FN/GB.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/FN/Util.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/FN/Util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/IO/IOCommento.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/IO/IOCommento.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/IO/IOFilm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/IO/IOFilm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/IO/IOLaConnessione.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/IO/IOLaConnessione.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/IO/IOUtente.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/IO/IOUtente.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/CLI/TCPCommento.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/CLI/TCPCommento.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/CLI/TCPFilm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/CLI/TCPFilm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/CLI/TCPUtente.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/CLI/TCPUtente.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/SER/SERCommento.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/SER/SERCommento.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/SER/SERFilm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/SER/SERFilm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/SER/SERUtente.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/SER/SERUtente.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/TCPClient.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/TCPClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/TCPServer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/TCPServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/TCPStrutture.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/TCPStrutture.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="Classi/Constanti.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/DB/CommentiValutazione.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/DB/CommentiValutazione.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/DB/Commento.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/DB/Commento.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/DB/DBf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/DB/Film.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/DB/Film.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/DB/FilmValutazione.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/DB/FilmValutazione.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/DB/LaConnessione.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/DB/LaConnessione.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/DB/Utente.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/DB/Utente.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/FN/GB.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/FN/GB.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/FN/Util.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/FN/Util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/IO/IOCommento.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/IO/IOCommento.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/IO/IOFilm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/IO/IOFilm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/IO/IOLaConnessione.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/IO/IOLaConnessione.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/IO/IOUtente.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/IO/IOUtente.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/CLI/TCPCommento.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/CLI/TCPCommento.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/CLI/TCPFilm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/CLI/TCPFilm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/CLI/TCPUtente.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/CLI/TCPUtente.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/SER/SERCommento.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/SER/SERCommento.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/SER/SERFilm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/SER/SERFilm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/SER/SERUtente.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/SER/SERUtente.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/TCPClient.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/TCPClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/TCPServer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/TCPServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classi/NET/TCPStrutture.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Classi/NET/TCPStrutture.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

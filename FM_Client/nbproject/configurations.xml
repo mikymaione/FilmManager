@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Commenti_Dettaglio.h</itemPath>
+      <itemPath>Commenti_Ricerca.h</itemPath>
+      <itemPath>Connessione.h</itemPath>
+      <itemPath>ConversionFN.h</itemPath>
+      <itemPath>Film_Dettaglio.h</itemPath>
+      <itemPath>Film_Ricerca.h</itemPath>
+      <itemPath>GlobalVar.h</itemPath>
+      <itemPath>TableMacro.h</itemPath>
+      <itemPath>Utente_Dettaglio.h</itemPath>
+      <itemPath>Utente_Login.h</itemPath>
+      <itemPath>form1.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>Commenti_Dettaglio.ui</itemPath>
+      <itemPath>Commenti_Ricerca.ui</itemPath>
+      <itemPath>Connessione.ui</itemPath>
+      <itemPath>Film_Dettaglio.ui</itemPath>
+      <itemPath>Film_Ricerca.ui</itemPath>
+      <itemPath>Utente_Dettaglio.ui</itemPath>
+      <itemPath>Utente_Login.ui</itemPath>
+      <itemPath>form1.ui</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Commenti_Dettaglio.cpp</itemPath>
+      <itemPath>Commenti_Ricerca.cpp</itemPath>
+      <itemPath>Connessione.cpp</itemPath>
+      <itemPath>ConversionFN.cpp</itemPath>
+      <itemPath>Film_Dettaglio.cpp</itemPath>
+      <itemPath>Film_Ricerca.cpp</itemPath>
+      <itemPath>GlobalVar.cpp</itemPath>
+      <itemPath>TableMacro.cpp</itemPath>
+      <itemPath>Utente_Dettaglio.cpp</itemPath>
+      <itemPath>Utente_Login.cpp</itemPath>
+      <itemPath>form1.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>/home/michele/Documenti/LSO/FM_Core/Classi/</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibProjectItem>
+              <makeArtifact PL="/home/michele/Scrivania/LSO/FM_Core"
+                            CT="3"
+                            CN="Debug"
+                            AC="true"
+                            BL="true"
+                            WD="/home/michele/Scrivania/LSO/FM_Core"
+                            BC="${MAKE}  -f Makefile CONF=Debug"
+                            CC="${MAKE}  -f Makefile CONF=Debug clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libfm_core.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Commenti_Dettaglio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Commenti_Dettaglio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Commenti_Dettaglio.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Commenti_Ricerca.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Commenti_Ricerca.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Commenti_Ricerca.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Connessione.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Connessione.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Connessione.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ConversionFN.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ConversionFN.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Film_Dettaglio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Film_Dettaglio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Film_Dettaglio.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Film_Ricerca.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Film_Ricerca.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Film_Ricerca.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GlobalVar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GlobalVar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TableMacro.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TableMacro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Utente_Dettaglio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Utente_Dettaglio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Utente_Dettaglio.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Utente_Login.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Utente_Login.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Utente_Login.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form1.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <buildMode>1</buildMode>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Commenti_Dettaglio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Commenti_Dettaglio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Commenti_Dettaglio.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Commenti_Ricerca.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Commenti_Ricerca.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Commenti_Ricerca.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Connessione.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Connessione.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Connessione.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ConversionFN.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ConversionFN.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Film_Dettaglio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Film_Dettaglio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Film_Dettaglio.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Film_Ricerca.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Film_Ricerca.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Film_Ricerca.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GlobalVar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GlobalVar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TableMacro.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TableMacro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Utente_Dettaglio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Utente_Dettaglio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Utente_Dettaglio.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Utente_Login.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Utente_Login.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Utente_Login.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form1.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -1,0 +1,1 @@
+void cp(char da[], char a[], int len);

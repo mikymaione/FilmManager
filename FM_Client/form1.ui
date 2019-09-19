@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>form1</class>
+ <widget class="QMainWindow" name="form1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>602</width>
+    <height>383</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Film Manager - [MAIONE MIKY]</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Icone/inbox_film.ico</normaloff>Icone/inbox_film.ico</iconset>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>22</width>
+    <height>22</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="eUtente">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>10</y>
+      <width>351</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>[nessuno]</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>105</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Utente connesso:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Connessione:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="eConnessione">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>30</y>
+      <width>381</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>nessuna</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="floatable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionLogin"/>
+   <addaction name="actionConnetti"/>
+   <addaction name="actionConnessione"/>
+   <addaction name="actionFilms"/>
+  </widget>
+  <action name="actionFilms">
+   <property name="icon">
+    <iconset>
+     <normaloff>Icone/film.png</normaloff>Icone/film.png</iconset>
+   </property>
+   <property name="text">
+    <string>Films</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="actionConnessione">
+   <property name="icon">
+    <iconset>
+     <normaloff>Icone/server_connect.png</normaloff>Icone/server_connect.png</iconset>
+   </property>
+   <property name="text">
+    <string>Connessione</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionConnetti">
+   <property name="icon">
+    <iconset>
+     <normaloff>Icone/connect.png</normaloff>Icone/connect.png</iconset>
+   </property>
+   <property name="text">
+    <string>Connetti</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionLogin">
+   <property name="icon">
+    <iconset>
+     <normaloff>Icone/key.png</normaloff>Icone/key.png</iconset>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+L</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actionLogin</sender>
+   <signal>triggered()</signal>
+   <receiver>form1</receiver>
+   <slot>LoginClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionConnetti</sender>
+   <signal>triggered()</signal>
+   <receiver>form1</receiver>
+   <slot>ConnettiClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionConnessione</sender>
+   <signal>triggered()</signal>
+   <receiver>form1</receiver>
+   <slot>ConnessioneClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionFilms</sender>
+   <signal>triggered()</signal>
+   <receiver>form1</receiver>
+   <slot>FilmClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
